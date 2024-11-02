@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Asbak | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .headerimg {
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .avatar {
+      border-radius: 50%; 
+      width: 250px; 
+      height: 250px;
+      object-fit: cover; 
+    }
+
+    .content {
+      flex: 1; 
+      padding-left: 20px; 
+    }
+
+    .portfolio-container {
+      display: flex; 
+      align-items: center;
+      padding: 20px; 
+      background-color: #ddb5f0; 
+      border-radius: 8px; 
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    }
+
+    .navclr {
+      color: #007bff; 
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .navclr:hover {
+      color: #0056b3; 
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://i.ibb.co/GTK00qw/IMG-20240722-182135.jpg" alt="Logo" width="40" height="34"   class="d-inline-block align-text-top headerimg">
+          Mohamed Asbak Portfolio
+        </a>
+      </div>
+    </nav>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <p class="nav-link active navclr" aria-current="page" style="color: aliceblue;" onclick="display('sectionhome')">Home</p>
+      </li>
+      <li class="nav-item">
+        <p class="nav-link navclr" style="color: aliceblue;" onclick="display('sectionabout')">About</p>
+      </li>
+      <li class="nav-item">
+        <p class="nav-link navclr"  style="color: aliceblue;" onclick="display('sectionproject')">Projects</p> <!-- Fixed -->
+      </li>
+      <li class="nav-item">
+        <p class="nav-link navclr" style="color: aliceblue;" onclick="display('sectioncontactus')">Contact Us</p>
+      </li>
+    </ul>    
+  </div>
+<div id="sectionhome">
+  <div class="portfolio-container">
+    <img src="https://i.ibb.co/Bc39L6M/Whats-App-Image-2024-10-28-at-21-20-13-38dd34ec.jpg" class="avatar" alt="Avatar">
+    <div class="content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi, I'm Mohamed Asbak,  a BSc Artificial Intelligence fresher at American College, Madurai, with a passion for tech innovation and creativity. 
+        <br>I'm currently diving into full-stack development at NxtWave, and I work as a freelance designer.
+        <br> My projects range from an IoT smart bin for biomedical waste to my ongoing Cyber Guardian initiative. 
+        <br>I’m also exploring the world of affiliate marketing with my brand Treasure Trove and have a growing interest in trading. 
+        <br>Whether it's tech, design, or business ideas, I'm all about creating impactful solutions.
+        </p>
+    </div>
+  </div> 
+</div>
+  <div id="sectionabout" >
+  <div class="about-container">
+    <div class="content">
+      <h1>About me</h1>
+      <p>
+        I’m Mohamed Asbak, a driven and enthusiastic 17-year-old currently pursuing a BSc in Artificial Intelligence at American College, Madurai. My academic journey is complemented by a robust passion for technology, where I’m deeply engaged in a comprehensive full-stack development program at NxtWave. Here, I have not only honed my programming skills but have also excelled, earning full marks in various coding and technology challenges, which fuels my excitement for building innovative solutions.
+        
+        My interests span across several emerging tech fields, including IoT, cybersecurity, and AR/VR. One of my most impactful projects so far is an IoT-enabled smart management bin, designed to revolutionize biomedical waste disposal and contribute to disease prevention. Additionally, I’ve secured high scores in cybersecurity tests, completed courses on IoT and AR/VR, and am currently developing a project named Cyber Guardian to further my expertise in safeguarding digital spaces.
+        
+        Creativity is a significant part of who I am. I've completed over 50 design projects on Canva, earning a certificate that celebrates my love for visually appealing creations. Beyond this, I’ve embarked on freelance image design work and recently started exploring bold, vibrant T-shirt designs for a coffee shop, moving away from minimalistic trends. My flair for the artistic also extends to event management, having been part of the team that organized the Music Fest Extravaganza in Madurai, a three-day celebration filled with music, art, and engaging activities.
+        
+        On the entrepreneurial side, I’m exploring various business opportunities such as social media management and print-on-demand services. Most recently, I ventured into affiliate marketing with my brand Treasure Trove, dedicated to sharing the best Amazon finds, especially in the fashion and beauty niche. I've set up Outfit Odyssey, an Instagram and Pinterest page, to promote stylish clothing items like shirts and kurtas. Additionally, I’m leveraging tools like Telegram bots for efficient deal scheduling and utilizing platforms like Linktree for affiliate strategies.
+        
+        I’m also deeply committed to expanding my knowledge and sharing it with others. I am preparing to conduct a workshop titled DataCrunch Analytics using Pythonic, where I’ll guide participants through practical data analysis techniques. Balancing my tech interests with a touch of business, I’m also supporting my father’s venture, SKM Brothers, a wholesale and retail furniture shop, for which I’m designing a fresh, eye-catching logo.
+        
+        Ultimately, I am a dynamic individual who loves merging technology, creativity, and entrepreneurship. I am continuously motivated to learn, innovate, and make meaningful contributions to the tech world and beyond.  </p>
+    </div>
+  </div>
+</div>
+<div id="sectionproject">
+  <center>
+    <h1>Projects</h1>
+    <div class="card mb-7 project-container" style="max-width: 700px; background-color: #ddb5f0;">
+      <div class="row g-0">
+        <div class="col-md-5"> 
+          <img src="https://i.ibb.co/mb1WqVk/Screenshot-7.png" class="img-fluid rounded-start" alt="project-img">
+        </div>
+        <div class="col-md-7">
+          <div class="card-body">
+            <h5 class="card-title">Cyber Guardian</h5>
+            <p class="card-text">
+              Cyber Guardian is a project aimed at strengthening digital security by developing advanced strategies and tools to protect against cyber threats. It focuses on safeguarding sensitive information and creating a robust defense framework to ensure the safety of digital environments. By leveraging cutting-edge cybersecurity practices, Cyber Guardian addresses the growing need for comprehensive protection in our increasingly connected world.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </center>
+  <div id="sectioncontactus">
+  <footer class="bg-dark text-white text-center py-3 ">
+    <div class="container">
+      <p>&copy; 2024 Mohamed Asbak. All Rights Reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/mdasbak/" class="text-white" target="_blank">LinkedIn</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://github.com/Mdasbak" class="text-white" target="_blank">GitHub</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="mailto:mohamedasbak81@gmail.com" class="text-white">Email</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  
+</div>
+</body>
+</html>
